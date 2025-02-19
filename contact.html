@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>STUDY</title>
+    <meta
+      name="description"
+      content="STUDYは、実践的なプログラミングスキルを習得するためのプログラミング学習講座です。"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./img/common/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      href="./img/common/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght400;500;700&family=Roboto:wght400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/contact.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="img/common/logo.svg" alt="STUDY" />
+        </a>
+      </h1>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="service.html">サービス</a></li>
+          <li><a href="price.html">料金</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="page-header">
+        <h1 class="page-title">
+          <span class="ja">お問い合わせ</span>
+          <span class="en">CONTACT</span>
+        </h1>
+      </div>
+
+      <div class="page-head-text wrapper">
+        <p class="title">まずはお気軽にお問い合わせください。</p>
+        <p class="text">
+          お問い合わせは下記フォームからお願いいたします。<br />
+          3営業日以内にご返信いたします。
+        </p>
+      </div>
+
+      <section class="contact-form wrapper">
+        <h2 class="section-title">お問い合わせフォーム</h2>
+        <form action="" method="post">
+          <dl>
+            <dt>種類<span class="require">*</span></dt>
+            <dd class="radio-group">
+              <div class="item-group">
+                <input
+                  type="radio"
+                  name="kind"
+                  id="service"
+                  value="サービスに関するお問い合わせ"
+                />
+                <label for="service">サービスに関するお問い合わせ</label>
+              </div>
+              <div class="item-group">
+                <input
+                  type="radio"
+                  name="kind"
+                  id="interview"
+                  value="取材に関するお問い合わせ"
+                />
+                <label for="interview">取材に関するお問い合わせ</label>
+              </div>
+              <div class="item-group">
+                <input
+                  type="radio"
+                  name="kind"
+                  id="document"
+                  value="資料請求"
+                />
+                <label for="document">資料請求</label>
+              </div>
+              <div class="item-group">
+                <input type="radio" name="kind" id="other" value="その他" />
+                <label for="other">その他</label>
+              </div>
+            </dd>
+
+            <dt><label for="company">会社名</label></dt>
+            <dd><input id="company" type="text" name="company" /></dd>
+
+            <dt>
+              <label for="name">お名前</label><span class="require">*</span>
+            </dt>
+            <dd><input id="name" type="text" name="name" /></dd>
+
+            <dt>
+              <label for="email">メールアドレス</label
+              ><span class="require">*</span>
+            </dt>
+            <dd><input id="email" type="text" name="email" /></dd>
+
+            <dt>
+              <label for="message">詳細内容</label
+              ><span class="require">*</span>
+            </dt>
+            <dd>
+              <textarea id="message" name="message"></textarea>
+            </dd>
+          </dl>
+          <div class="btn"><input type="submit" value="送信する" /></div>
+        </form>
+      </section>
+
+      <section class="contact">
+        <h2 class="section-title">お問い合わせ</h2>
+        <div class="inner wrapper">
+          <p class="text">
+            サービスに関するご不明点は<br
+              class="sp"
+            />下記からお気軽にご連絡ください 。
+          </p>
+          <a class="btn" href="contact.html">お問い合わせはこちらから</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="inner wrapper">
+        <div class="logo">
+          <img src="img/common/logo.svg" alt="STUDY" />
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="service.html">サービス</a></li>
+          <li><a href="price.html">料金</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Copyright @ study. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
