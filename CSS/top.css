@@ -195,27 +195,6 @@
   text-align: right;
 }
 
-.contact {
-  background-color: #ffed58;
-  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-  padding: 100px 0 60px;
-}
-.contact .inner {
-  text-align: center;
-}
-.contact .text {
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-.contact .btn {
-  background-color: #fff;
-  border: solid 1px #707070;
-  display: inline-block;
-  font-size: 14px;
-  padding: 20px 60px;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1079px) {
   .mainvisual .text .catchphrase {
     font-size: 31px;
@@ -311,10 +290,5 @@
   .voice .item .img .text {
     font-size: 14px;
     padding: 10px;
-  }
-  .contact {
-    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-    padding: 60px 0 40px;
   }
 }

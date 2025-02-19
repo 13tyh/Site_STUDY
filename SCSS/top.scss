@@ -205,29 +205,6 @@
   }
 }
 
-.contact {
-  background-color: #ffed58;
-  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-  padding: 100px 0 60px;
-
-  .inner {
-    text-align: center;
-  }
-
-  .text {
-    line-height: 1.6;
-    margin-bottom: 40px;
-  }
-
-  .btn {
-    background-color: #fff;
-    border: solid 1px #707070;
-    display: inline-block;
-    font-size: 14px;
-    padding: 20px 60px;
-  }
-}
-
 // 画面幅768px以上1080px未満
 
 @include mixin.mq(pc) {
@@ -338,10 +315,5 @@
         }
       }
     }
-  }
-
-  .contact {
-    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-    padding: 60px 0 40px;
   }
 }
