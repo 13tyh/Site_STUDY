@@ -61,6 +61,30 @@ a {
   }
 }
 
+//ページヘッダー
+.page-header {
+  background-color: #ffed58;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding: 60px 0 80px;
+  text-align: center;
+
+  .page-title {
+    .ja {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    .en {
+      display: block;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+
 .wrapper-1080 {
   max-width: 1120px;
   padding: 0 20px;
@@ -92,13 +116,35 @@ a {
   }
 }
 
+//ページヘッド
+.page-head-text {
+  padding: 50px 0;
+  text-align: center;
+
+  .title {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 30px;
+
+    .pc {
+      display: none;
+    }
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+}
+
+// 文字につけるハイライト
 .highlight {
   background: linear-gradient(transparent 50%, #fff390 50%);
   font-weight: 700;
 }
 
 // お問い合わせセクション
-
 .contact {
   background-color: #ffed58;
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
@@ -123,7 +169,6 @@ a {
 }
 
 // フッター
-
 .footer {
   border-top: 1px solid #707070;
   padding: 40px 0 20px;
@@ -270,6 +315,28 @@ a {
     }
   }
 
+  //ページヘッダー
+  .page-header {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding: 30px 0 50px;
+
+    .page-title {
+      .en {
+        font-size: 30px;
+      }
+    }
+  }
+
+  //ページヘッド
+  .page-head-text {
+    .title {
+      font-size: 20px;
+      .pc {
+        display: block;
+      }
+    }
+  }
+
   .section-title {
     font-size: 24px;
     margin-bottom: 60px;
@@ -279,11 +346,13 @@ a {
     }
   }
 
+  // お問い合わせセクション
   .contact {
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
     padding: 60px 0 40px;
   }
 
+  // フッター
   .footer {
     .inner {
       flex-direction: column;

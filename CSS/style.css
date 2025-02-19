@@ -62,6 +62,26 @@ a:hover {
   margin-left: 40px;
 }
 
+.page-header {
+  background-color: #ffed58;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding: 60px 0 80px;
+  text-align: center;
+}
+.page-header .page-title .ja {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.page-header .page-title .en {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
 .wrapper-1080 {
   max-width: 1120px;
   padding: 0 20px;
@@ -91,6 +111,24 @@ a:hover {
   bottom: -20px;
   left: 0;
   right: 0;
+}
+
+.page-head-text {
+  padding: 50px 0;
+  text-align: center;
+}
+.page-head-text .title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.page-head-text .title .pc {
+  display: none;
+}
+.page-head-text .text {
+  font-size: 14px;
+  line-height: 1.8;
 }
 
 .highlight {
@@ -259,6 +297,20 @@ a:hover {
     top: 24px;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+  }
+  .page-header {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding: 30px 0 50px;
+  }
+  .page-header .page-title .en {
+    font-size: 30px;
+  }
+  .page-head-text .title {
+    font-size: 20px;
+  }
+  .page-head-text .title .pc {
+    display: block;
   }
   .section-title {
     font-size: 24px;
